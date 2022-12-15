@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body {
+    background-color: black;
+    font-family: Handlee;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    font-family: Handlee;
+    font-size: 20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-width: 2px;
+    width: 250px;
+}
+
+button {
+    font-family: Handlee;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightgrey;
+    border-color: darkgrey;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+#cuadritogrande {
+    margin: auto;
+    margin-top: 80px;
+    background-color: white;
+    height: 372px;
+    width: 524px;
+    justify-items: center;
+}
+
+.partesuperior {
+    height: 80px;
+    width: 522px;
+    display: flex
+}
+
+.superiorizq {
+    height: 80px;
+    width: 424px;
+}
+
+.superiorder {
+    padding-top: 1px;
+    height: 80px;
+    width: 80px;
+    justify-content: right;
+}
+
+.partemedio {
+    height: 188px;
+    width: 522px;
+    display: flex
+}
+
+.medioizq {
+    height: 188px;
+    width: 261px;
+    justify-content: left;
+}
+
+.medioder {
+    height: 188px;
+    width: 261px;
+    justify-content: right;   
+    margin-top: 10px;
+}
+
+.parteinferior {
+    height: 88px;
+    justify-items: center;
+    margin-top: 12px;
+    text-align: center
+}
